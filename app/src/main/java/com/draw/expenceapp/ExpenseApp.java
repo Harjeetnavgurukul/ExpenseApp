@@ -1,6 +1,8 @@
 package com.draw.expenceapp;
 
+import android.content.Intent;
 import android.graphics.Typeface;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,5 +23,7 @@ public class ExpenseApp extends AppCompatActivity {
         txt = findViewById(R.id.name);
         myFont = Typeface.createFromAsset(this.getAssets(),"fonts/abc.ttf");
         txt.setTypeface(myFont);
+
+
     }
 }
